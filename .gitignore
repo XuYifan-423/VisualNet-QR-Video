@@ -29,6 +29,10 @@ Thumbs.db
 *.log
 
 opencv/
+
+#太大了，加不了
+opencv_world4120d.dll    
+
 ffmpeg*/
 # 注意：以下目录和文件需要保留在仓库中，用于测试：
 # - input/ 目录（包含测试输入文件）
