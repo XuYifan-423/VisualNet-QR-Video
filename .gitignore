@@ -1,0 +1,44 @@
+# Visual Studio 编译中间文件（保留可执行文件，但排除中间文件）
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.tlog
+*.lastbuildstate
+*.vcxproj.user
+*.suo
+*.db
+
+# Visual Studio 临时文件
+.vs/
+
+# IDE 配置文件
+*.vcxproj.filters
+*.vcxproj.user
+
+# 注意：以下文件需要保留在仓库中：
+# - *.sln (Visual Studio 解决方案文件)
+# - *.vcxproj (Visual Studio 项目文件)
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 日志文件
+*.log
+
+opencv/
+opencv_world4120d.dll
+ffmpeg*/
+# 注意：以下目录和文件需要保留在仓库中，用于测试：
+# - input/ 目录（包含测试输入文件）
+# - output/ 目录（包含示例输出文件）
+# - input/temp/ 和 output/temp/ 目录（测试临时文件）
+# - 所有示例图片和测试数据文件
+
+# 注意：以下文件需要保留在仓库中，以便用户可以直接使用：
+# - x64/Debug/newvisualnet.exe (编译好的可执行文件)
+# - opencv/build/bin/ (OpenCV DLL文件)
+# - ffmpeg-2026-03-05-git-74cfcd1c69-essentials_build/bin/ (FFmpeg可执行文件)
+# - 必要的依赖库文件（如 libavcodec.dll, libavformat.dll, libavutil.dll 等）
